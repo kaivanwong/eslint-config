@@ -1,0 +1,35 @@
+{
+  "name": "@kaivanwong/eslint",
+  "version": "0.0.0",
+  "description": "Kaivanwong's ESLint config presets",
+  "author": "Kaivan Wong <kaivanwong@outlook.com>",
+  "keywords": [
+    "kaivanwong",
+    "eslint"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/kaivanwong/eslint#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaivanwong/eslint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kaivanwong/eslint/issues"
+  },
+  "packageManager": "pnpm@7.21.0",
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint"
+    ]
+  },
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "lint": "eslint .",
+    "lint-staged": "lint-staged"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.34.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0"
+  }
+}
