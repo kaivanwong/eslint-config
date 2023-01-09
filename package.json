@@ -28,7 +28,6 @@
     "lint-staged": "lint-staged"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.34.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.0"
   }
