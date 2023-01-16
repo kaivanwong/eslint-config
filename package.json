@@ -23,7 +23,6 @@
     ]
   },
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
     "lint": "eslint .",
     "lint-staged": "lint-staged"
   },
