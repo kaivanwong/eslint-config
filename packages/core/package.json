@@ -1,5 +1,5 @@
 {
-	"name": "@kaivanwong/eslint-core",
+	"name": "@kaivanwong/eslint-config-core",
 	"version": "0.0.0",
 	"description": "Kaivanwong's ESLint config presets",
 	"author": "Kaivan Wong <kaivanwong@outlook.com>",
