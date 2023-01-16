@@ -1,5 +1,5 @@
 {
-  "name": "@kaivanwong/eslint",
+  "name": "@kaivanwong/eslint-config",
   "version": "0.0.0",
   "description": "Kaivanwong's ESLint config presets",
   "author": "Kaivan Wong <kaivanwong@outlook.com>",
@@ -18,18 +18,19 @@
   },
   "packageManager": "pnpm@7.21.0",
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
+    "*.{js,ts}": [
       "eslint"
     ]
   },
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
     "lint": "eslint .",
     "lint-staged": "lint-staged"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.34.0",
+    "@kaivanwong/eslint-config": "*",
     "husky": "^8.0.3",
-    "lint-staged": "^13.1.0"
+    "lint-staged": "^13.1.0",
+    "eslint": "^8.31.0",
+    "typescript": "^4.9.4"
   }
 }
