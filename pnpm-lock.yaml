@@ -4,12 +4,12 @@ importers:
 
   .:
     specifiers:
-      '@kaivanwong/eslint-config': ^0.2.3
+      '@kaivanwong/eslint-config': ^0.4.0
       bumpp: ^8.2.1
       eslint: ^8.32.0
       typescript: ^4.9.4
     devDependencies:
-      '@kaivanwong/eslint-config': link:packages/all
+      '@kaivanwong/eslint-config': link:packages/eslint-config
       bumpp: 8.2.1
       eslint: 8.32.0
       typescript: 4.9.4
