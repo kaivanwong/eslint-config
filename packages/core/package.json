@@ -1,6 +1,6 @@
 {
 	"name": "@kaivanwong/eslint-config-core",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"description": "Kaivanwong's ESLint config presets",
 	"author": "Kaivan Wong <kaivanwong@outlook.com>",
 	"keywords": [
@@ -9,13 +9,13 @@
 		"core"
 	],
 	"license": "MIT",
-	"homepage": "https://github.com/kaivanwong/eslint#readme",
+	"homepage": "https://github.com/kaivanwong/eslint-config#readme",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/kaivanwong/eslint.git"
+		"url": "git+https://github.com/kaivanwong/eslint-config.git"
 	},
 	"bugs": {
-		"url": "https://github.com/kaivanwong/eslint/issues"
+		"url": "https://github.com/kaivanwong/eslint-config/issues"
 	},
 	"main": "index.js",
 	"files": [
