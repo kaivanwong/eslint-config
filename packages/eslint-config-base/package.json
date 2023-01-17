@@ -1,12 +1,12 @@
 {
-	"name": "@kaivanwong/eslint-config-core",
+	"name": "@kaivanwong/eslint-config-base",
 	"version": "0.3.1",
 	"description": "Kaivanwong's ESLint config presets",
 	"author": "Kaivan Wong <kaivanwong@outlook.com>",
 	"keywords": [
 		"kaivanwong",
-		"eslint",
-		"core"
+		"eslint-config",
+		"base"
 	],
 	"license": "MIT",
 	"homepage": "https://github.com/kaivanwong/eslint-config#readme",

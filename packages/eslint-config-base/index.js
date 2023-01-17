@@ -1,10 +1,11 @@
 module.exports = {
+  // Open environment variables
   env: {
     es6: true,
     browser: true,
     node: true,
   },
-  reportUnusedDisableDirectives: true,
+  // Extended list
   extends: [
     './standard',
     'plugin:import/recommended',
@@ -13,6 +14,7 @@ module.exports = {
     'plugin:yml/standard',
     'plugin:markdown/recommended',
   ],
+  // Ignore list
   ignorePatterns: [
     '*.min.*',
     '*.d.ts',
@@ -32,16 +34,19 @@ module.exports = {
     '!.vitepress',
     '!.vscode',
   ],
+  // Plug-in list
   plugins: [
     'html',
     'unicorn',
     'no-only-tests',
   ],
+  // Common configuration
   settings: {
     'import/resolver': {
       node: { extensions: ['.js', '.mjs'] },
     },
   },
+  // Rewrite list
   overrides: [
     {
       files: ['*.json', '*.json5'],
@@ -184,6 +189,7 @@ module.exports = {
       },
     },
   ],
+  // Some custom rules
   rules: {
     'import/order': 'error',
     'import/first': 'error',
@@ -230,7 +236,7 @@ module.exports = {
     'prefer-const': [
       'error',
       {
-        destructuring: 'any',
+        destructuring: 'all',
         ignoreReadBeforeAssign: true,
       },
     ],

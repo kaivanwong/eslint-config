@@ -5,8 +5,7 @@
 	"author": "Kaivan Wong <kaivanwong@outlook.com>",
 	"keywords": [
 		"kaivanwong",
-		"eslint",
-		"all"
+		"eslint-config"
 	],
 	"license": "MIT",
 	"homepage": "https://github.com/kaivanwong/eslint-config#readme",
@@ -25,7 +24,7 @@
 		"eslint": ">=7.4.0"
 	},
 	"dependencies": {
-		"@kaivanwong/eslint-config-core": "workspace:*",
+		"@kaivanwong/eslint-config-base": "workspace:*",
 		"@typescript-eslint/eslint-plugin": "^5.48.0",
 		"@typescript-eslint/parser": "^5.48.0",
 		"eslint-plugin-eslint-comments": "^3.2.0",
