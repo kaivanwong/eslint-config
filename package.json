@@ -1,20 +1,20 @@
 {
   "name": "@kaivanwong/eslint-config",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Kaivanwong's ESLint config presets",
   "author": "Kaivan Wong <kaivanwong@outlook.com>",
   "keywords": [
     "kaivanwong",
-    "eslint"
+    "eslint-config"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/kaivanwong/eslint#readme",
+  "homepage": "https://github.com/kaivanwong/eslint-config#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaivanwong/eslint.git"
+    "url": "git+https://github.com/kaivanwong/eslint-config.git"
   },
   "bugs": {
-    "url": "https://github.com/kaivanwong/eslint/issues"
+    "url": "https://github.com/kaivanwong/eslint-config/issues"
   },
   "packageManager": "pnpm@7.21.0",
   "lint-staged": {
@@ -22,15 +22,25 @@
       "eslint"
     ]
   },
+  "main": "src/index.ts",
+  "files": [
+    "src/index.ts"
+  ],
   "scripts": {
     "lint": "eslint .",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
   },
   "devDependencies": {
-    "@kaivanwong/eslint-config": "*",
+    "@kaivanwong/eslint-config": "workspace:^0.0.1",
+    "@kaivanwong/eslint-config-core": "workspace:*",
+    "bumpp": "^8.2.1",
+    "eslint": "^8.32.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.0",
-    "eslint": "^8.31.0",
     "typescript": "^4.9.4"
   }
 }
