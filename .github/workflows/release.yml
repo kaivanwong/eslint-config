@@ -16,14 +16,6 @@ jobs:
         with:
           node-version: 16.x
           registry-url: https://registry.npmjs.org/
-      - name: Install
-        run: npm i -g pnpm@7.21.0 && pnpm install
-      - name: Build
-        run: pnpm build
-      - name: Publish to NPM
-        run: npm publish --access public
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
       - name: Generate Changelog
         run: npx changelogithub
         env:
