@@ -1,5 +1,4 @@
 module.exports = {
-  // Analytic configuration
   parserOptions: {
     ecmaVersion: 2022,
     ecmaFeatures: {
@@ -7,24 +6,20 @@ module.exports = {
     },
     sourceType: 'module',
   },
-  // Open environment variables
   env: {
     es2021: true,
     node: true,
   },
-  // Plug-in list
   plugins: [
     'import',
     'n',
     'promise',
   ],
-  // Global configuration
   globals: {
     document: 'readonly',
     navigator: 'readonly',
     window: 'readonly',
   },
-  // Some custom rules
   rules: {
     'no-var': 'warn',
     'object-shorthand': ['warn', 'properties'],
