@@ -1,6 +1,6 @@
 {
-  "name": "@kaivanwong/eslint-config",
-  "version": "0.1.1",
+  "name": "@kaivanwong/eslint-config-monorepo",
+  "version": "0.2.0",
   "description": "Kaivanwong's ESLint config presets",
   "author": "Kaivan Wong <kaivanwong@outlook.com>",
   "keywords": [
@@ -17,21 +17,13 @@
     "url": "https://github.com/kaivanwong/eslint-config/issues"
   },
   "packageManager": "pnpm@7.21.0",
-  "main": "src/index.js",
-  "files": [
-    "src/index.js"
-  ],
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
   },
-  "peerDependencies": {
-    "eslint": ">=7.4.0"
-  },
   "devDependencies": {
-    "@kaivanwong/eslint-config": "workspace:^0.0.1",
-    "@kaivanwong/eslint-config-core": "workspace:*",
+    "@kaivanwong/eslint-config": "*",
     "bumpp": "^8.2.1",
     "eslint": "^8.32.0",
     "typescript": "^4.9.4"
