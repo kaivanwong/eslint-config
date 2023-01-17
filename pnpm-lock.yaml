@@ -4,7 +4,7 @@ importers:
 
   .:
     specifiers:
-      '@kaivanwong/eslint-config': ^0.4.0
+      '@kaivanwong/eslint-config': '*'
       bumpp: ^8.2.1
       eslint: ^8.32.0
       typescript: ^4.9.4
@@ -14,9 +14,9 @@ importers:
       eslint: 8.32.0
       typescript: 4.9.4
 
-  packages/all:
+  packages/eslint-config:
     specifiers:
-      '@kaivanwong/eslint-config-core': workspace:*
+      '@kaivanwong/eslint-config-base': workspace:*
       '@typescript-eslint/eslint-plugin': ^5.48.0
       '@typescript-eslint/parser': ^5.48.0
       eslint: ^8.32.0
@@ -32,7 +32,7 @@ importers:
       jsonc-eslint-parser: ^2.1.0
       yaml-eslint-parser: ^1.1.0
     dependencies:
-      '@kaivanwong/eslint-config-core': link:../core
+      '@kaivanwong/eslint-config-base': link:../eslint-config-base
       '@typescript-eslint/eslint-plugin': 5.48.2_caon6io6stgpr7lz2rtbhekxqy
       '@typescript-eslint/parser': 5.48.2_7uibuqfxkfaozanbtbziikiqje
       eslint-plugin-eslint-comments: 3.2.0_eslint@8.32.0
@@ -49,7 +49,7 @@ importers:
     devDependencies:
       eslint: 8.32.0
 
-  packages/core:
+  packages/eslint-config-base:
     specifiers:
       eslint: ^8.32.0
       eslint-plugin-eslint-comments: ^3.2.0
