@@ -17,6 +17,7 @@ importers:
   packages/eslint-config:
     specifiers:
       '@kaivanwong/eslint-config-base': workspace:*
+      '@kaivanwong/eslint-config-ts': workspace:*
       '@typescript-eslint/eslint-plugin': ^5.48.0
       '@typescript-eslint/parser': ^5.48.0
       eslint: ^8.32.0
@@ -34,6 +35,7 @@ importers:
       yaml-eslint-parser: ^1.1.0
     dependencies:
       '@kaivanwong/eslint-config-base': link:../eslint-config-base
+      '@kaivanwong/eslint-config-ts': link:../eslint-config-ts
       '@typescript-eslint/eslint-plugin': 5.48.2_caon6io6stgpr7lz2rtbhekxqy
       '@typescript-eslint/parser': 5.48.2_7uibuqfxkfaozanbtbziikiqje
       eslint-plugin-eslint-comments: 3.2.0_eslint@8.32.0

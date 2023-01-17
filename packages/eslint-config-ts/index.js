@@ -6,7 +6,7 @@ const tsconfig = process.env.ESLINT_TSCONFIG || 'tsconfig.eslint.json'
 
 module.exports = {
   extends: [
-    '@kaivanwong/eslint-config-basic',
+    '@kaivanwong/eslint-config-base',
     'plugin:import/typescript',
     'plugin:@typescript-eslint/recommended',
   ],
