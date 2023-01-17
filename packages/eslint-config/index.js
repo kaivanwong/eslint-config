@@ -9,7 +9,7 @@ if(!TS) {
 module.exports = {
   extends: [
     TS
-    ? '@antfu/eslint-config-ts'
-    : '@antfu/eslint-config-base',
+    ? '@kaivanwong/eslint-config-ts'
+    : '@kaivanwong/eslint-config-base',
   ],
 }
