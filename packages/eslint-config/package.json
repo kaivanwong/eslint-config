@@ -1,47 +1,47 @@
 {
-	"name": "@kaivanwong/eslint-config",
-	"version": "0.4.3",
-	"description": "Kaivanwong's ESLint config presets",
-	"author": "Kaivan Wong <kaivanwong@outlook.com>",
-	"keywords": [
-		"kaivanwong",
-		"eslint-config"
-	],
-	"license": "MIT",
-	"homepage": "https://github.com/kaivanwong/eslint-config#readme",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/kaivanwong/eslint-config.git"
-	},
-	"bugs": {
-		"url": "https://github.com/kaivanwong/eslint-config/issues"
-	},
-	"main": "index.js",
-	"files": [
-		"index.js"
-	],
-	"peerDependencies": {
-		"eslint": ">=7.4.0"
-	},
-	"dependencies": {
-		"@kaivanwong/eslint-config-base": "workspace:*",
-		"@kaivanwong/eslint-config-ts": "workspace:*",
-		"@typescript-eslint/eslint-plugin": "^5.48.0",
-		"@typescript-eslint/parser": "^5.48.0",
-		"eslint-plugin-eslint-comments": "^3.2.0",
-		"eslint-plugin-html": "^7.1.0",
-		"eslint-plugin-import": "^2.26.0",
-		"eslint-plugin-jsonc": "^2.6.0",
-		"eslint-plugin-n": "^15.6.0",
-		"eslint-plugin-promise": "^6.1.1",
-		"eslint-plugin-unicorn": "^45.0.2",
-		"eslint-plugin-vue": "^9.8.0",
-		"eslint-plugin-yml": "^1.4.0",
-		"jsonc-eslint-parser": "^2.1.0",
-		"yaml-eslint-parser": "^1.1.0",
-		"local-pkg": "^0.4.2"
-	},
-	"devDependencies": {
-		"eslint": "^8.32.0"
-	}
+  "name": "@kaivanwong/eslint-config",
+  "version": "0.4.3",
+  "description": "Kaivanwong's ESLint config presets",
+  "author": "Kaivan Wong <kaivanwong@outlook.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/kaivanwong/eslint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaivanwong/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kaivanwong/eslint-config/issues"
+  },
+  "keywords": [
+    "kaivanwong",
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@kaivanwong/eslint-config-base": "workspace:*",
+    "@kaivanwong/eslint-config-ts": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^5.48.0",
+    "@typescript-eslint/parser": "^5.48.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsonc": "^2.6.0",
+    "eslint-plugin-n": "^15.6.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-unicorn": "^45.0.2",
+    "eslint-plugin-vue": "^9.8.0",
+    "eslint-plugin-yml": "^1.4.0",
+    "jsonc-eslint-parser": "^2.1.0",
+    "local-pkg": "^0.4.2",
+    "yaml-eslint-parser": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0"
+  }
 }

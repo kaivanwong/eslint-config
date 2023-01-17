@@ -1,12 +1,9 @@
 {
   "name": "@kaivanwong/eslint-config-monorepo",
   "version": "0.4.3",
+  "packageManager": "pnpm@7.21.0",
   "description": "Kaivanwong's ESLint config presets",
   "author": "Kaivan Wong <kaivanwong@outlook.com>",
-  "keywords": [
-    "kaivanwong",
-    "eslint-config"
-  ],
   "license": "MIT",
   "homepage": "https://github.com/kaivanwong/eslint-config#readme",
   "repository": {
@@ -16,7 +13,10 @@
   "bugs": {
     "url": "https://github.com/kaivanwong/eslint-config/issues"
   },
-  "packageManager": "pnpm@7.21.0",
+  "keywords": [
+    "kaivanwong",
+    "eslint-config"
+  ],
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
