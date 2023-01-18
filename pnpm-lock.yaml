@@ -99,6 +99,17 @@ importers:
     devDependencies:
       eslint: 8.32.0
 
+  packages/eslint-config-vue:
+    specifiers:
+      eslint: ^8.32.0
+      eslint-plugin-vue: ^9.8.0
+      local-pkg: ^0.4.2
+    dependencies:
+      eslint-plugin-vue: 9.9.0_eslint@8.32.0
+      local-pkg: 0.4.2
+    devDependencies:
+      eslint: 8.32.0
+
 packages:
 
   /@babel/code-frame/7.18.6:
