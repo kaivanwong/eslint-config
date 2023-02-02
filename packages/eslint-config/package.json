@@ -25,10 +25,10 @@
   },
   "dependencies": {
     "@kaivanwong/eslint-config-base": "workspace:*",
-    "@kaivanwong/eslint-config-nest": "workspace:*",
-    "@kaivanwong/eslint-config-react": "workspace:*",
     "@kaivanwong/eslint-config-ts": "workspace:*",
     "@kaivanwong/eslint-config-vue": "workspace:*",
+    "@kaivanwong/eslint-config-react": "workspace:*",
+    "@kaivanwong/eslint-config-nest": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.48.0",
     "@typescript-eslint/parser": "^5.48.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
