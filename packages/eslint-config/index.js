@@ -4,6 +4,7 @@ const Extends = []
 
 const TS = isPackageExists('typescript')
 const VUE = isPackageExists('vue')
+const NEST = isPackageExists('nestjs')
 
 if (TS) {
   Extends.push('@kaivanwong/eslint-config-ts')
@@ -15,6 +16,9 @@ else {
 
 if (VUE)
   Extends.push('@kaivanwong/eslint-config-vue')
+
+if (NEST)
+  Extends.push('@kaivanwong/eslint-config-nest')
 
 module.exports = {
   extends: Extends,

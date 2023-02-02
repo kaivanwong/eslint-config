@@ -1,0 +1,36 @@
+{
+  "name": "@kaivanwong/eslint-config-nest",
+  "version": "0.6.1",
+  "description": "Kaivanwong's ESLint config presets",
+  "author": "Kaivan Wong <kaivanwong@outlook.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/kaivanwong/eslint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaivanwong/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kaivanwong/eslint-config/issues"
+  },
+  "keywords": [
+    "kaivanwong",
+    "eslint-config",
+    "nest"
+  ],
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "local-pkg": "^0.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0"
+  }
+}

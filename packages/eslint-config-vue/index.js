@@ -3,6 +3,9 @@ const { isPackageExists } = require('local-pkg')
 const TS = isPackageExists('typescript')
 
 module.exports = {
+  extends: [
+    'plugin:vue/vue3-recommended',
+  ],
   overrides: [
     {
       files: ['*.vue'],
@@ -18,9 +21,6 @@ module.exports = {
           : null),
       },
     },
-  ],
-  extends: [
-    'plugin:vue/vue3-recommended',
   ],
   rules: {
     'vue/max-attributes-per-line': 'off',

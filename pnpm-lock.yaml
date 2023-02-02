@@ -84,6 +84,15 @@ importers:
     devDependencies:
       eslint: 8.32.0
 
+  packages/eslint-config-nest:
+    specifiers:
+      eslint: ^8.32.0
+      local-pkg: ^0.4.2
+    dependencies:
+      local-pkg: 0.4.2
+    devDependencies:
+      eslint: 8.32.0
+
   packages/eslint-config-ts:
     specifiers:
       '@kaivanwong/eslint-config-base': workspace:*

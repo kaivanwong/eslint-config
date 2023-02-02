@@ -4,14 +4,11 @@ module.exports = {
     browser: true,
     node: true,
   },
-  extends: [
-    './standard',
-    'plugin:import/recommended',
-    'plugin:eslint-comments/recommended',
-    'plugin:jsonc/recommended-with-jsonc',
-    'plugin:yml/standard',
-    'plugin:markdown/recommended',
-  ],
+  settings: {
+    'import/resolver': {
+      node: { extensions: ['.js', '.mjs'] },
+    },
+  },
   ignorePatterns: [
     '*.min.*',
     '*.d.ts',
@@ -31,16 +28,19 @@ module.exports = {
     '!.vitepress',
     '!.vscode',
   ],
+  extends: [
+    './standard',
+    'plugin:import/recommended',
+    'plugin:eslint-comments/recommended',
+    'plugin:jsonc/recommended-with-jsonc',
+    'plugin:yml/standard',
+    'plugin:markdown/recommended',
+  ],
   plugins: [
     'html',
     'unicorn',
     'no-only-tests',
   ],
-  settings: {
-    'import/resolver': {
-      node: { extensions: ['.js', '.mjs'] },
-    },
-  },
   overrides: [
     {
       files: ['*.json', '*.json5'],

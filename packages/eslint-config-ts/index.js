@@ -5,16 +5,16 @@ const base = require('@kaivanwong/eslint-config-base')
 const tsconfig = process.env.ESLINT_TSCONFIG || 'tsconfig.eslint.json'
 
 module.exports = {
-  extends: [
-    '@kaivanwong/eslint-config-base',
-    'plugin:import/typescript',
-    'plugin:@typescript-eslint/recommended',
-  ],
   settings: {
     'import/resolver': {
       node: { extensions: ['.js', '.jsx', '.mjs', '.ts', '.tsx', '.d.ts'] },
     },
   },
+  extends: [
+    '@kaivanwong/eslint-config-base',
+    'plugin:import/typescript',
+    'plugin:@typescript-eslint/recommended',
+  ],
   overrides: base.overrides.concat(
     !fs.existsSync(join(process.cwd(), tsconfig))
       ? []
