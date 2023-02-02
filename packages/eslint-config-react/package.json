@@ -1,6 +1,6 @@
 {
   "name": "@kaivanwong/eslint-config-react",
-  "version": "0.8.7",
+  "version": "0.8.8",
   "description": "Kaivanwong's ESLint config presets",
   "author": "Kaivan Wong <kaivanwong@outlook.com>",
   "license": "MIT",
