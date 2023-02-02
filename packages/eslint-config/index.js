@@ -5,7 +5,7 @@ const Extends = []
 const TS = isPackageExists('typescript')
 const VUE = isPackageExists('vue')
 const REACT = isPackageExists('react')
-const NEST = isPackageExists('nestjs')
+const NEST = isPackageExists('@nestjs/core')
 
 if (TS) {
   Extends.push('@kaivanwong/eslint-config-ts')
