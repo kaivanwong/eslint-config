@@ -1,5 +1,4 @@
 module.exports = {
-  rules: {
-    '@typescript-eslint/consistent-type-imports': 'off',
-  },
+  extends: ['plugin:@darraghor/nestjs-typed/recommended'],
+  plugins: ['@darraghor/nestjs-typed'],
 }

@@ -28,6 +28,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
+    "@darraghor/eslint-plugin-nestjs-typed": "^3.18.0",
     "local-pkg": "^0.4.2"
   },
   "devDependencies": {
