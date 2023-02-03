@@ -27,6 +27,8 @@ module.exports = {
     '!.github',
     '!.vitepress',
     '!.vscode',
+    '!.husky',
+    '!.netlify',
   ],
   extends: [
     './standard',

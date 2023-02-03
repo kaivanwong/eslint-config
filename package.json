@@ -1,6 +1,7 @@
 {
   "name": "@kaivanwong/eslint-config-monorepo",
-  "version": "0.8.11-beta.1",
+  "version": "0.8.11-beta.0",
+  "packageManager": "pnpm@7.21.0",
   "description": "Kaivanwong's ESLint config presets",
   "author": "Kaivan Wong <kaivanwong@outlook.com>",
   "license": "MIT",
@@ -16,10 +17,9 @@
     "kaivanwong",
     "eslint-config"
   ],
-  "packageManager": "pnpm@7.21.0",
   "scripts": {
-    "lint": "eslint ./",
-    "lint:fix": "eslint ./ --fix",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
   },
   "devDependencies": {
