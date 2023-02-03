@@ -24,6 +24,8 @@ if (REACT)
 if (NEST)
   Extends.push('@kaivanwong/eslint-config-nest')
 
+console.warn(Extends)
+
 module.exports = {
   extends: Extends,
 }
