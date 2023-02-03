@@ -27,10 +27,7 @@
   "peerDependencies": {
     "eslint": ">=7.4.0"
   },
-  "dependencies": {
-    "@darraghor/eslint-plugin-nestjs-typed": "^3.18.0",
-    "class-validator": "^0.14.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "eslint": "^8.33.0"
   }
