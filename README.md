@@ -22,6 +22,8 @@ Add `.eslintrc` to your project directory
 
 > You don't need .eslintignore normally as it has been provided by the preset.
 
+In the case of monorepo, you need to add `"root":true` to `.eslintrc` to specify the root configuration file
+
 ### Add script for package.json
 
 ```json
