@@ -29,9 +29,10 @@
   },
   "dependencies": {
     "@darraghor/eslint-plugin-nestjs-typed": "^3.18.0",
-    "local-pkg": "^0.4.2"
+    "class-validator": "^0.14.0",
+    "local-pkg": "^0.4.3"
   },
   "devDependencies": {
-    "eslint": "^8.32.0"
+    "eslint": "^8.33.0"
   }
 }
