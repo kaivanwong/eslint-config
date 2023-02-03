@@ -4,6 +4,9 @@ const base = require('@kaivanwong/eslint-config-base')
 
 const tsconfig = process.env.ESLINT_TSCONFIG || 'tsconfig.eslint.json'
 
+console.warn(base.overrides.concat(
+  !fs.existsSync(join(process.cwd(), tsconfig))))
+
 module.exports = {
   settings: {
     'import/resolver': {
