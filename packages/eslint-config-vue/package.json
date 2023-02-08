@@ -28,10 +28,10 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "eslint-plugin-vue": "^9.8.0",
-    "local-pkg": "^0.4.2"
+    "eslint-plugin-vue": "^9.9.0",
+    "local-pkg": "^0.4.3"
   },
   "devDependencies": {
-    "eslint": "^8.32.0"
+    "eslint": "^8.33.0"
   }
 }
