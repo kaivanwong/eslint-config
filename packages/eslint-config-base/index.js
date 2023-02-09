@@ -35,6 +35,7 @@ module.exports = {
   plugins: [
     'html',
     'unicorn',
+    'antfu',
     'no-only-tests',
     'unused-imports',
   ],
