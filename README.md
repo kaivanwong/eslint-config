@@ -48,6 +48,22 @@ Install [VS Code ESLint extension](https://marketplace.visualstudio.com/items?it
   }
 }
 ```
+
+### Customization rules
+
+Add you like rules to your `.eslintrc` file:
+
+```json
+{
+  "extends": [
+    "@kaivanwong"
+  ],
+  "rules": {
+    // ...
+  }
+}
+```
+
 ### TypeScript Aware Rules
 
 Type aware rules are enabled when a `tsconfig.eslint.json` is found in the project root, which will introduce some stricter rules into your project. If you want to enable it while have no `tsconfig.eslint.json` in the project root, you can change tsconfig name by modifying `ESLINT_TSCONFIG` env. 
@@ -59,6 +75,10 @@ module.exports = {
   extends: '@kaivanwong'
 }
 ```
+
+## Thanks
+
+This project is based on [@antfu/eslint-config](https://github.com/antfu/eslint-config)
 
 ## License
 
