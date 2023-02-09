@@ -1,6 +1,6 @@
 {
   "name": "@kaivanwong/eslint-config-base",
-  "version": "0.11.4",
+  "version": "0.12.0",
   "description": "Kaivanwong's ESLint config presets",
   "author": "Kaivan Wong <kaivanwong@outlook.com>",
   "license": "MIT",
