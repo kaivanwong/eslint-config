@@ -3,9 +3,6 @@ const { isPackageExists } = require('local-pkg')
 const TS = isPackageExists('typescript')
 
 module.exports = {
-  extends: [
-    'plugin:vue/vue3-recommended',
-  ],
   overrides: [
     {
       files: ['*.vue'],
@@ -22,13 +19,21 @@ module.exports = {
       },
     },
   ],
+  extends: [
+    'plugin:vue/vue3-recommended',
+  ],
   rules: {
     'vue/max-attributes-per-line': 'off',
+    'vue/no-v-html': 'off',
     'vue/require-prop-types': 'off',
     'vue/require-default-prop': 'off',
     'vue/multi-word-component-names': 'off',
     'vue/prefer-import-from-vue': 'off',
+    'vue/no-v-text-v-html-on-component': 'off',
+
+    // reactivity transform
     'vue/no-setup-props-destructure': 'off',
+
     'vue/component-tags-order': ['error', {
       order: ['script', 'template', 'style'],
     }],
@@ -47,9 +52,10 @@ module.exports = {
     }],
     'vue/no-restricted-v-bind': ['error', '/^v-/'],
     'vue/no-useless-v-bind': 'error',
-    'vue/no-v-text-v-html-on-component': 'off',
     'vue/padding-line-between-blocks': ['error', 'always'],
     'vue/prefer-separate-static-class': 'error',
+
+    // extensions
     'vue/array-bracket-spacing': ['error', 'never'],
     'vue/arrow-spacing': ['error', { before: true, after: true }],
     'vue/block-spacing': ['error', 'always'],
@@ -60,6 +66,7 @@ module.exports = {
     'vue/dot-location': ['error', 'property'],
     'vue/dot-notation': ['error', { allowKeywords: true }],
     'vue/eqeqeq': ['error', 'smart'],
+    // 'vue/func-call-spacing': ['off', 'never'],
     'vue/key-spacing': ['error', { beforeColon: false, afterColon: true }],
     'vue/keyword-spacing': ['error', { before: true, after: true }],
     'vue/no-constant-condition': 'warn',
