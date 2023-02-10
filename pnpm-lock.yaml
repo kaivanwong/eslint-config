@@ -19,45 +19,13 @@ importers:
       '@kaivanwong/eslint-config-react': workspace:*
       '@kaivanwong/eslint-config-ts': workspace:*
       '@kaivanwong/eslint-config-vue': workspace:*
-      '@typescript-eslint/eslint-plugin': ^5.51.0
-      '@typescript-eslint/parser': ^5.51.0
       eslint: ^8.33.0
-      eslint-plugin-eslint-comments: ^3.2.0
-      eslint-plugin-html: ^7.1.0
-      eslint-plugin-import: ^2.27.5
-      eslint-plugin-jsonc: ^2.6.0
-      eslint-plugin-n: ^15.6.1
-      eslint-plugin-promise: ^6.1.1
-      eslint-plugin-react: ^7.32.2
-      eslint-plugin-react-hooks: ^4.6.0
-      eslint-plugin-unicorn: ^45.0.2
-      eslint-plugin-vue: ^9.9.0
-      eslint-plugin-yml: ^1.4.0
-      jsonc-eslint-parser: ^2.1.0
-      local-pkg: ^0.4.3
-      yaml-eslint-parser: ^1.1.0
     dependencies:
       '@kaivanwong/eslint-config-base': link:../eslint-config-base
       '@kaivanwong/eslint-config-nest': link:../eslint-config-nest
       '@kaivanwong/eslint-config-react': link:../eslint-config-react
       '@kaivanwong/eslint-config-ts': link:../eslint-config-ts
       '@kaivanwong/eslint-config-vue': link:../eslint-config-vue
-      '@typescript-eslint/eslint-plugin': 5.51.0_b635kmla6dsb4frxfihkw4m47e
-      '@typescript-eslint/parser': 5.51.0_4vsywjlpuriuw3tl5oq6zy5a64
-      eslint-plugin-eslint-comments: 3.2.0_eslint@8.33.0
-      eslint-plugin-html: 7.1.0
-      eslint-plugin-import: 2.27.5_yzj2n2b43wonjwaifya6xmk2zy
-      eslint-plugin-jsonc: 2.6.0_eslint@8.33.0
-      eslint-plugin-n: 15.6.1_eslint@8.33.0
-      eslint-plugin-promise: 6.1.1_eslint@8.33.0
-      eslint-plugin-react: 7.32.2_eslint@8.33.0
-      eslint-plugin-react-hooks: 4.6.0_eslint@8.33.0
-      eslint-plugin-unicorn: 45.0.2_eslint@8.33.0
-      eslint-plugin-vue: 9.9.0_eslint@8.33.0
-      eslint-plugin-yml: 1.4.0_eslint@8.33.0
-      jsonc-eslint-parser: 2.1.0
-      local-pkg: 0.4.3
-      yaml-eslint-parser: 1.1.0
     devDependencies:
       eslint: 8.33.0
 
@@ -824,35 +792,6 @@ packages:
       - supports-color
     dev: false
 
-  /eslint-module-utils/2.7.4_fwto6vsnn2m6f5yglaeo6vhd5y:
-    resolution: {integrity: sha512-j4GT+rqzCoRKHwURX7pddtIPGySnX9Si/cgMI5ztrcqOPtk5dDEeZ34CQVPphnqkJytlc97Vuk05Um2mJ3gEQA==}
-    engines: {node: '>=4'}
-    peerDependencies:
-      '@typescript-eslint/parser': '*'
-      eslint: '*'
-      eslint-import-resolver-node: '*'
-      eslint-import-resolver-typescript: '*'
-      eslint-import-resolver-webpack: '*'
-    peerDependenciesMeta:
-      '@typescript-eslint/parser':
-        optional: true
-      eslint:
-        optional: true
-      eslint-import-resolver-node:
-        optional: true
-      eslint-import-resolver-typescript:
-        optional: true
-      eslint-import-resolver-webpack:
-        optional: true
-    dependencies:
-      '@typescript-eslint/parser': 5.51.0_4vsywjlpuriuw3tl5oq6zy5a64
-      debug: 3.2.7
-      eslint: 8.33.0
-      eslint-import-resolver-node: 0.3.7
-    transitivePeerDependencies:
-      - supports-color
-    dev: false
-
   /eslint-plugin-antfu/0.35.2_4vsywjlpuriuw3tl5oq6zy5a64:
     resolution: {integrity: sha512-Q6FOcOakafU49PDRlq7jkrWmlTJ4u3AW7aGX+FqeQNaMgjXq0RzPGvS0Vyp7q/XDRLLoe0BjbGkamTeZXg8waw==}
     dependencies:
@@ -909,39 +848,6 @@ packages:
       eslint: 8.33.0
       eslint-import-resolver-node: 0.3.7
       eslint-module-utils: 2.7.4_b5qyyy7jj6vxczv7eweintx4wu
-      has: 1.0.3
-      is-core-module: 2.11.0
-      is-glob: 4.0.3
-      minimatch: 3.1.2
-      object.values: 1.1.6
-      resolve: 1.22.1
-      semver: 6.3.0
-      tsconfig-paths: 3.14.1
-    transitivePeerDependencies:
-      - eslint-import-resolver-typescript
-      - eslint-import-resolver-webpack
-      - supports-color
-    dev: false
-
-  /eslint-plugin-import/2.27.5_yzj2n2b43wonjwaifya6xmk2zy:
-    resolution: {integrity: sha512-LmEt3GVofgiGuiE+ORpnvP+kAm3h6MLZJ4Q5HCyHADofsb4VzXFsRiWj3c0OFiV+3DWFh0qg3v9gcPlfc3zRow==}
-    engines: {node: '>=4'}
-    peerDependencies:
-      '@typescript-eslint/parser': '*'
-      eslint: ^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8
-    peerDependenciesMeta:
-      '@typescript-eslint/parser':
-        optional: true
-    dependencies:
-      '@typescript-eslint/parser': 5.51.0_4vsywjlpuriuw3tl5oq6zy5a64
-      array-includes: 3.1.6
-      array.prototype.flat: 1.3.1
-      array.prototype.flatmap: 1.3.1
-      debug: 3.2.7
-      doctrine: 2.1.0
-      eslint: 8.33.0
-      eslint-import-resolver-node: 0.3.7
-      eslint-module-utils: 2.7.4_fwto6vsnn2m6f5yglaeo6vhd5y
       has: 1.0.3
       is-core-module: 2.11.0
       is-glob: 4.0.3
@@ -1041,15 +947,6 @@ packages:
       eslint: 8.32.0
     dev: false
 
-  /eslint-plugin-react-hooks/4.6.0_eslint@8.33.0:
-    resolution: {integrity: sha512-oFc7Itz9Qxh2x4gNHStv3BqJq54ExXmfC+a1NjAta66IAN87Wu0R/QArgIS9qKzX3dXKPI9H5crl9QchNMY9+g==}
-    engines: {node: '>=10'}
-    peerDependencies:
-      eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
-    dependencies:
-      eslint: 8.33.0
-    dev: false
-
   /eslint-plugin-react/7.32.2_eslint@8.32.0:
     resolution: {integrity: sha512-t2fBMa+XzonrrNkyVirzKlvn5RXzzPwRHtMvLAtVZrt8oxgnTQaYbU6SXTOO1mwQgp1y5+toMSKInnzGr0Knqg==}
     engines: {node: '>=4'}
@@ -1061,30 +958,6 @@ packages:
       array.prototype.tosorted: 1.1.1
       doctrine: 2.1.0
       eslint: 8.32.0
-      estraverse: 5.3.0
-      jsx-ast-utils: 3.3.3
-      minimatch: 3.1.2
-      object.entries: 1.1.6
-      object.fromentries: 2.0.6
-      object.hasown: 1.1.2
-      object.values: 1.1.6
-      prop-types: 15.8.1
-      resolve: 2.0.0-next.4
-      semver: 6.3.0
-      string.prototype.matchall: 4.0.8
-    dev: false
-
-  /eslint-plugin-react/7.32.2_eslint@8.33.0:
-    resolution: {integrity: sha512-t2fBMa+XzonrrNkyVirzKlvn5RXzzPwRHtMvLAtVZrt8oxgnTQaYbU6SXTOO1mwQgp1y5+toMSKInnzGr0Knqg==}
-    engines: {node: '>=4'}
-    peerDependencies:
-      eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
-    dependencies:
-      array-includes: 3.1.6
-      array.prototype.flatmap: 1.3.1
-      array.prototype.tosorted: 1.1.1
-      doctrine: 2.1.0
-      eslint: 8.33.0
       estraverse: 5.3.0
       jsx-ast-utils: 3.3.3
       minimatch: 3.1.2
