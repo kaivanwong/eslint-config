@@ -27,10 +27,7 @@
   "peerDependencies": {
     "eslint": ">=7.4.0"
   },
-  "dependencies": {
-    "@kaivanwong/eslint-config-base": "workspace:*",
-    "@kaivanwong/eslint-config-ts": "workspace:*"
-  },
+  "dependencies": {},
   "devDependencies": {
     "eslint": "^8.33.0"
   }

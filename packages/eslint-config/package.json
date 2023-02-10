@@ -27,6 +27,8 @@
     "@kaivanwong/eslint-config-nest": "workspace:*",
     "@kaivanwong/eslint-config-react": "workspace:*",
     "@kaivanwong/eslint-config-vue": "workspace:*",
+    "@kaivanwong/eslint-config-base": "workspace:*",
+    "@kaivanwong/eslint-config-ts": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.51.0",
     "@typescript-eslint/parser": "^5.51.0",
     "eslint-plugin-antfu": "^0.35.2",
