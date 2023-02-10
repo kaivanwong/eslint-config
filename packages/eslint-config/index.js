@@ -2,7 +2,6 @@ const { isPackageExists } = require('local-pkg')
 
 const Extends = []
 
-const TS = isPackageExists('typescript')
 const VUE = isPackageExists('vue')
 const REACT = isPackageExists('react')
 const NEST = isPackageExists('@nestjs/core')
@@ -17,5 +16,5 @@ if (NEST)
   Extends.push('@kaivanwong/eslint-config-nest')
 
 module.exports = {
-  extends: Extends,
+  extends: '@kaivanwong/eslint-config-vue',
 }
