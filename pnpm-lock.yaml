@@ -4,7 +4,7 @@ importers:
 
   .:
     specifiers:
-      '@kaivanwong/eslint-config': ^0.12.2
+      '@kaivanwong/eslint-config': workspace:*
       bumpp: ^8.2.1
       eslint: ^8.33.0
       eslint-plugin-antfu: ^0.35.2
@@ -24,12 +24,14 @@ importers:
       '@kaivanwong/eslint-config-ts': workspace:*
       '@kaivanwong/eslint-config-vue': workspace:*
       eslint: ^8.33.0
+      local-pkg: ^0.4.3
     dependencies:
       '@kaivanwong/eslint-config-base': link:../eslint-config-base
       '@kaivanwong/eslint-config-nest': link:../eslint-config-nest
       '@kaivanwong/eslint-config-react': link:../eslint-config-react
       '@kaivanwong/eslint-config-ts': link:../eslint-config-ts
       '@kaivanwong/eslint-config-vue': link:../eslint-config-vue
+      local-pkg: 0.4.3
     devDependencies:
       eslint: 8.33.0
 
