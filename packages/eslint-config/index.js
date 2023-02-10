@@ -24,8 +24,6 @@ else {
   console.warn('[@kaivanwong/eslint-config] TypeScript is not installed, fallback to JS only.')
 }
 
-console.warn(Extends)
-
 module.exports = {
   extends: Extends,
 }
