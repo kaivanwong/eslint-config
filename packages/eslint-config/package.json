@@ -1,13 +1,27 @@
 {
-  "author": "Kaivan Wong <kaivanwong@outlook.com>",
-  "description": "Kaivanwong's ESLint config presets",
-  "homepage": "https://github.com/kaivanwong/eslint-config#readme",
-  "license": "MIT",
-  "main": "index.js",
   "name": "@kaivanwong/eslint-config",
   "version": "0.12.3",
+  "description": "Kaivanwong's ESLint config presets",
+  "author": "Kaivan Wong <kaivanwong@outlook.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/kaivanwong/eslint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaivanwong/eslint-config.git"
+  },
   "bugs": {
     "url": "https://github.com/kaivanwong/eslint-config/issues"
+  },
+  "keywords": [
+    "kaivanwong",
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
   },
   "dependencies": {
     "@kaivanwong/eslint-config-base": "workspace:*",
@@ -19,19 +33,5 @@
   },
   "devDependencies": {
     "eslint": "^8.33.0"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "kaivanwong",
-    "eslint-config"
-  ],
-  "peerDependencies": {
-    "eslint": ">=7.4.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kaivanwong/eslint-config.git"
   }
 }
