@@ -16,9 +16,9 @@
     "kaivanwong",
     "eslint-config"
   ],
-  "main": "index.js",
+  "main": "./index.js",
   "files": [
-    "index.js"
+    "*.js"
   ],
   "peerDependencies": {
     "eslint": ">=7.4.0"
@@ -49,7 +49,6 @@
     "eslint-plugin-yml": "^1.5.0",
     "jsonc-eslint-parser": "^2.1.0",
     "local-pkg": "^0.4.3",
-    "typescript": "^4.9.5",
     "yaml-eslint-parser": "^1.1.0"
   },
   "devDependencies": {

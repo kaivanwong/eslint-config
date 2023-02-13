@@ -17,13 +17,10 @@
     "eslint-config",
     "nest"
   ],
-  "main": "index.js",
+  "main": "./index.js",
   "files": [
     "*.js"
   ],
-  "scripts": {
-    "lint": "eslint . --config=index.js"
-  },
   "peerDependencies": {
     "eslint": ">=7.4.0"
   },
