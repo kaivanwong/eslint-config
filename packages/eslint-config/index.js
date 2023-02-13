@@ -7,7 +7,7 @@ const NEST = isPackageExists('@nestjs/core')
 
 const Extends = []
 
-console.log(TS)
+console.warn(TS)
 
 if (TS) {
   Extends.push('@kaivanwong/eslint-config-ts')
@@ -26,7 +26,7 @@ if (REACT)
 if (NEST)
   Extends.push('@kaivanwong/eslint-config-nest')
 
-console.log(Extends)
+console.warn(Extends)
 
 module.exports = {
   extends: Extends,
