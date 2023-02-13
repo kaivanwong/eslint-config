@@ -16,9 +16,12 @@
     "kaivanwong",
     "eslint-config"
   ],
-  "main": "./index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "main": "index.js",
   "files": [
-    "*.js"
+    "index.js"
   ],
   "peerDependencies": {
     "eslint": ">=7.4.0"
