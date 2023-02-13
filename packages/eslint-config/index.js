@@ -25,7 +25,5 @@ if (NEST)
   Extends = ['@kaivanwong/eslint-config-nest']
 
 module.exports = {
-  extends: [
-    '@kaivanwong/eslint-config-vue',
-  ],
+  extends: Extends,
 }
