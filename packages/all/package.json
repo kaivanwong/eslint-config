@@ -2,9 +2,16 @@
   "name": "@kaivanwong/eslint-config",
   "version": "0.13.0-beta.10",
   "description": "Kaivanwong's ESLint config presets",
-  "author": "Kaivan Wong <kaivanwong@outlook.com> (https://github.com/kaivanwong)",
+  "author": "Kaivan Wong <kaivanwong@outlook.com>",
   "license": "MIT",
-  "homepage": "https://github.com/kaivanwong/eslint-config",
+  "homepage": "https://github.com/kaivanwong/kaivanwong.me#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaivanwong/kaivanwong.me.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kaivanwong/kaivanwong.me/issues"
+  },
   "keywords": [
     "eslint-config"
   ],
@@ -17,6 +24,7 @@
   },
   "dependencies": {
     "@kaivanwong/eslint-config-vue": "workspace:*",
+    "@kaivanwong/eslint-config-react": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.51.0",
     "@typescript-eslint/parser": "^5.51.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
