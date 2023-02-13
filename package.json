@@ -3,8 +3,17 @@
   "version": "0.13.0-beta.12",
   "private": true,
   "packageManager": "pnpm@7.1.0",
-  "author": "Kaivan Wong <kaivanwong@outlook.com> (https://github.com/kaivanwong)",
+  "description": "Kaivanwong's ESLint config presets",
+  "author": "Kaivan Wong <kaivanwong@outlook.com>",
   "license": "MIT",
+  "homepage": "https://github.com/kaivanwong/eslint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaivanwong/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kaivanwong/eslint-config/issues"
+  },
   "scripts": {
     "lint": "eslint .",
     "test": "pnpm -r run test",

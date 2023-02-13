@@ -4,13 +4,13 @@
   "description": "Kaivanwong's ESLint config presets",
   "author": "Kaivan Wong <kaivanwong@outlook.com>",
   "license": "MIT",
-  "homepage": "https://github.com/kaivanwong/kaivanwong.me#readme",
+  "homepage": "https://github.com/kaivanwong/eslint-config#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaivanwong/kaivanwong.me.git"
+    "url": "git+https://github.com/kaivanwong/eslint-config.git"
   },
   "bugs": {
-    "url": "https://github.com/kaivanwong/kaivanwong.me/issues"
+    "url": "https://github.com/kaivanwong/eslint-config/issues"
   },
   "keywords": [
     "eslint-config"
