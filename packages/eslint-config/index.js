@@ -25,5 +25,5 @@ if (NEST)
   Extends.push('@kaivanwong/eslint-config-nest')
 
 module.exports = {
-  extends: Extends,
+  extends: require('../eslint-config-vue/index'),
 }
