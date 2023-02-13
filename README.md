@@ -1,18 +1,24 @@
 # @kaivanwong/eslint-config
 
-Kaivanwong's ESLint config presets
+[![npm](https://img.shields.io/npm/v/@kaivanwong/eslint-config?color=a1b858&label=)](https://npmjs.com/package/@kaivanwong/eslint-config)
+
+- Single quotes, no semi
+- Auto fix for formatting (aimed to be used standalone without Prettier)
+- Designed to work with TypeScript, Vue out-of-box
+- Lint also for json, yaml, markdown
+- Sorted imports, dangling commas
+- Reasonable defaults, best practices, only one-line of config
+- **Style principle**: Minimal for reading, stable for diff
 
 ## Usage
 
 ### Install
 
-```sh
-pnpm i eslint @kaivanwong/eslint-config -D 
+```bash
+pnpm add -D eslint @kaivanwong/eslint-config
 ```
 
-### Config .eslintrc
-
-Add `.eslintrc` to your project directory
+### Config `.eslintrc`
 
 ```json
 {
@@ -20,11 +26,11 @@ Add `.eslintrc` to your project directory
 }
 ```
 
-> You don't need .eslintignore normally as it has been provided by the preset.
-
-In the case of monorepo, you need to add `"root":true` to `.eslintrc` to specify the root configuration file
+> You don't need `.eslintignore` normally as it has been provided by the preset.
 
 ### Add script for package.json
+
+For example:
 
 ```json
 {
@@ -37,7 +43,7 @@ In the case of monorepo, you need to add `"root":true` to `.eslintrc` to specify
 
 ### Config VS Code auto fix
 
-Install [VS Code ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) extension and create `.vscode/settings.json`
+Install [VS Code ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) and create `.vscode/settings.json`
 
 ```json
 {
@@ -49,21 +55,6 @@ Install [VS Code ESLint extension](https://marketplace.visualstudio.com/items?it
 }
 ```
 
-### Customization rules
-
-Add you like rules to your `.eslintrc` file:
-
-```json
-{
-  "extends": [
-    "@kaivanwong"
-  ],
-  "rules": {
-    // ...
-  }
-}
-```
-
 ### TypeScript Aware Rules
 
 Type aware rules are enabled when a `tsconfig.eslint.json` is found in the project root, which will introduce some stricter rules into your project. If you want to enable it while have no `tsconfig.eslint.json` in the project root, you can change tsconfig name by modifying `ESLINT_TSCONFIG` env. 
@@ -71,15 +62,23 @@ Type aware rules are enabled when a `tsconfig.eslint.json` is found in the proje
 ```js
 // .eslintrc.js
 process.env.ESLINT_TSCONFIG = 'tsconfig.json'
+
 module.exports = {
   extends: '@kaivanwong'
 }
 ```
 
-## Thanks
+## Extended Reading
 
-This project is based on [@antfu/eslint-config](https://github.com/antfu/eslint-config)
+Learn more about the context - [Why I don't use Prettier](https://kaivanwong.me/posts/why-not-prettier).
+
+## Check Also
+
+- [kaivanwong/dotfiles](https://github.com/kaivanwong/dotfiles) - My dotfiles
+- [kaivanwong/vscode-settings](https://github.com/kaivanwong/vscode-settings) - My VS Code settings
+- [kaivanwong/ts-starter](https://github.com/kaivanwong/ts-starter) - My starter template for TypeScript library
+- [kaivanwong/vitesse](https://github.com/kaivanwong/vitesse) - My starter template for Vue & Vite app
 
 ## License
 
-[MIT licensed](./LICENSE) © 2022-PRESENT [Kaivan Wong](https://github.com/kaivanwong)
+[MIT](./LICENSE) License &copy; 2019-PRESENT [Anthony Fu](https://github.com/kaivanwong)
