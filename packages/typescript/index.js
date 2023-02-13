@@ -153,8 +153,8 @@ module.exports = {
     'lines-between-class-members': 'off',
     '@typescript-eslint/lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
 
-    // kaivanwong
-    'kaivanwong/generic-spacing': 'error',
+    // antfu
+    'antfu/generic-spacing': 'error',
 
     // off
     '@typescript-eslint/consistent-indexed-object-style': 'off',
