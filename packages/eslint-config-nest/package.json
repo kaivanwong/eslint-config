@@ -1,6 +1,6 @@
 {
   "name": "@kaivanwong/eslint-config-nest",
-  "version": "0.12.23",
+  "version": "0.12.24",
   "description": "Kaivanwong's ESLint config presets",
   "author": "Kaivan Wong <kaivanwong@outlook.com>",
   "license": "MIT",
