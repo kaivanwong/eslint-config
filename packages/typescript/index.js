@@ -1,12 +1,12 @@
 const fs = require('fs')
 const { join } = require('path')
-const basic = require('@kaivanwong/eslint-config-basic')
+const base = require('@kaivanwong/eslint-config-base')
 
 const tsconfig = process.env.ESLINT_TSCONFIG || 'tsconfig.eslint.json'
 
 module.exports = {
   extends: [
-    '@kaivanwong/eslint-config-basic',
+    '@kaivanwong/eslint-config-base',
     'plugin:import/typescript',
     'plugin:@typescript-eslint/recommended',
   ],
@@ -15,7 +15,7 @@ module.exports = {
       node: { extensions: ['.js', '.jsx', '.mjs', '.ts', '.tsx', '.d.ts'] },
     },
   },
-  overrides: basic.overrides.concat(
+  overrides: base.overrides.concat(
     !fs.existsSync(join(process.cwd(), tsconfig))
       ? []
       : [{
