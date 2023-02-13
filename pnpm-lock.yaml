@@ -4,7 +4,7 @@ importers:
 
   .:
     specifiers:
-      '@kaivanwong/eslint-config': workspace:*
+      '@kaivanwong/eslint-config': '*'
       bumpp: ^8.2.1
       eslint: ^8.34.0
       typescript: ^4.9.5
