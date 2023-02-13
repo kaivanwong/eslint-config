@@ -50,8 +50,5 @@
     "jsonc-eslint-parser": "^2.1.0",
     "local-pkg": "^0.4.3",
     "yaml-eslint-parser": "^1.1.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.34.0"
   }
 }
