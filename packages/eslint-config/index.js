@@ -7,7 +7,7 @@ const NEST = isPackageExists('@nestjs/core')
 
 const Extends = []
 
-console.warn(TS)
+console.log(TS)
 
 if (TS) {
   Extends.push('@kaivanwong/eslint-config-ts')
@@ -26,8 +26,8 @@ if (REACT)
 if (NEST)
   Extends.push('@kaivanwong/eslint-config-nest')
 
-console.warn(Extends)
+console.log(Extends)
 
 module.exports = {
-  extends: require('../eslint-config-vue/index'),
+  extends: Extends,
 }
