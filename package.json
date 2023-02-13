@@ -1,6 +1,6 @@
 {
   "name": "@kaivanwong/eslint-config-monorepo",
-  "version": "0.13.0-beta.8",
+  "version": "0.13.0-beta.9",
   "private": true,
   "packageManager": "pnpm@7.1.0",
   "author": "Kaivan Wong <kaivanwong@outlook.com> (https://github.com/kaivanwong)",
@@ -13,7 +13,6 @@
   "devDependencies": {
     "@kaivanwong/eslint-config": "*",
     "bumpp": "^8.2.1",
-    "eslint": "^8.34.0",
-    "typescript": "^4.9.5"
+    "eslint": "^8.34.0"
   }
 }
