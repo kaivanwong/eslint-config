@@ -35,7 +35,7 @@ module.exports = {
   plugins: [
     'html',
     'unicorn',
-    'kaivanwong',
+    'antfu',
     'no-only-tests',
     'unused-imports',
   ],
@@ -349,9 +349,9 @@ module.exports = {
     'yml/quotes': ['error', { prefer: 'single', avoidEscape: false }],
     'yml/no-empty-document': 'off',
 
-    // kaivanwong
-    'kaivanwong/if-newline': 'error',
-    'kaivanwong/import-dedupe': 'error',
-    // 'kaivanwong/prefer-inline-type-import': 'error',
+    // antfu
+    'antfu/if-newline': 'error',
+    'antfu/import-dedupe': 'error',
+    // 'antfu/prefer-inline-type-import': 'error',
   },
 }
