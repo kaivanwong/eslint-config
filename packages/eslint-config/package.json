@@ -16,9 +16,6 @@
     "kaivanwong",
     "eslint-config"
   ],
-  "exports": {
-    ".": "./index.js"
-  },
   "main": "index.js",
   "files": [
     "index.js"
