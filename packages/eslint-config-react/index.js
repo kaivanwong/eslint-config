@@ -1,8 +1,15 @@
+const { isPackageExists } = require('local-pkg')
+
+const TS = isPackageExists('typescript')
+
 module.exports = {
   extends: [
     'plugin:react/recommended',
     'plugin:react/jsx-runtime',
     'plugin:react-hooks/recommended',
+    TS
+      ? '@kaivanwong/eslint-config-ts'
+      : '@kaivanwong/eslint-config-base',
   ],
   settings: {
     react: {
