@@ -1,0 +1,39 @@
+{
+  "name": "@kaivanwong/eslint-config-react",
+  "version": "0.13.0-beta.17",
+  "description": "Kaivanwong's ESLint config presets",
+  "author": "Kaivan Wong <kaivanwong@outlook.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/kaivanwong/eslint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaivanwong/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kaivanwong/eslint-config/issues"
+  },
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@kaivanwong/eslint-config-base": "workspace:*",
+    "@kaivanwong/eslint-config-ts": "workspace:*",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.33.0",
+    "react": "^18.2.0",
+    "typescript": "^4.9.5"
+  }
+}
