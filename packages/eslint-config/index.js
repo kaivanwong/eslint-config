@@ -2,6 +2,7 @@ const { isPackageExists } = require('local-pkg')
 
 const VUE = isPackageExists('vue')
 const REACT = isPackageExists('react')
+const NEST = isPackageExists('@nestjs/core') || isPackageExists('@nestjs/common') || isPackageExists('@nestjs/cli')
 
 const Extends = []
 
@@ -13,8 +14,10 @@ if (REACT) {
   Extends.push('@kaivanwong/eslint-config-react')
 }
 
+if (NEST) {
+  Extends.push('@kaivanwong/eslint-config-nest')
+}
+
 module.exports = {
-  extends: [
-    '@kaivanwong/eslint-config-vue',
-  ],
+  extends: Extends,
 }
