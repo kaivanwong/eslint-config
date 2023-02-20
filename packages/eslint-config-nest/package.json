@@ -27,7 +27,8 @@
   },
   "dependencies": {
     "@kaivanwong/eslint-config-base": "workspace:*",
-    "@kaivanwong/eslint-config-ts": "workspace:*"
+    "@kaivanwong/eslint-config-ts": "workspace:*",
+    "local-pkg": "^0.4.3"
   },
   "devDependencies": {
     "eslint": "^8.33.0"
