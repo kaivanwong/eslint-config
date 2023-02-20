@@ -11,7 +11,16 @@ module.exports = {
       ? '@kaivanwong/eslint-config-ts'
       : '@kaivanwong/eslint-config-base',
   ],
-  rules: {
-    '@typescript-eslint/consistent-type-imports': 'off',
-  },
+  overrides: [
+    {
+      files: ['*.ts'],
+      rules: {
+        'no-unused-vars': 'off',
+        'no-undef': 'off',
+        ...(TS
+          ? { '@typescript-eslint/consistent-type-imports': 'off', }
+          : null),
+      },
+    },
+  ],
 }
