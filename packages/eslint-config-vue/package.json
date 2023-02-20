@@ -1,6 +1,6 @@
 {
   "name": "@kaivanwong/eslint-config-vue",
-  "version": "0.13.4",
+  "version": "0.13.5",
   "description": "Kaivanwong's ESLint config presets",
   "author": "Kaivan Wong <kaivanwong@outlook.com>",
   "license": "MIT",
