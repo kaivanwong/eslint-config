@@ -10,6 +10,7 @@ const Extends = []
 if (TS) {
   Extends.push('@kaivanwong/eslint-config-ts')
 } else {
+  console.warn('[@kaivanwong/eslint-config] TypeScript is not installed, fallback to JS only.')
   Extends.push('@kaivanwong/eslint-config-base')
 }
 
