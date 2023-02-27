@@ -1,6 +1,6 @@
 # @kaivanwong/eslint-config
 
-Kaivanwong's ESLint config presets
+Kaivan Wong's ESLint config presets
 
 ## Usage
 
