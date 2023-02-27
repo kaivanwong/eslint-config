@@ -1,10 +1,17 @@
 const { isPackageExists } = require('local-pkg')
 
+const TS = isPackageExists('typescript')
 const VUE = isPackageExists('vue')
 const REACT = isPackageExists('react')
 const NEST = isPackageExists('@nestjs/core') || isPackageExists('@nestjs/common') || isPackageExists('@nestjs/cli')
 
 const Extends = []
+
+if (TS) {
+  Extends.push('@kaivanwong/eslint-config-ts')
+} else {
+  Extends.push('@kaivanwong/eslint-config-base')
+}
 
 if (VUE) {
   Extends.push('@kaivanwong/eslint-config-vue')
