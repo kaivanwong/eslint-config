@@ -8,22 +8,21 @@ const NEST = isPackageExists('@nestjs/core') || isPackageExists('@nestjs/common'
 const Extends = []
 
 if (TS) {
-  Extends.push('@kaivanwong/eslint-config-ts')
+  Extends = ['@kaivanwong/eslint-config-ts']
 } else {
-  console.warn('[@kaivanwong/eslint-config] TypeScript is not installed, fallback to JS only.')
-  Extends.push('@kaivanwong/eslint-config-base')
+  Extends = ['@kaivanwong/eslint-config-base']
 }
 
 if (VUE) {
-  Extends.push('@kaivanwong/eslint-config-vue')
+  Extends = ['@kaivanwong/eslint-config-vue']
 }
 
 if (REACT) {
-  Extends.push('@kaivanwong/eslint-config-react')
+  Extends = ['@kaivanwong/eslint-config-react']
 }
 
 if (NEST) {
-  Extends.push('@kaivanwong/eslint-config-nest')
+  Extends = ['@kaivanwong/eslint-config-nest']
 }
 
 module.exports = {
