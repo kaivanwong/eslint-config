@@ -5,12 +5,10 @@ const VUE = isPackageExists('vue')
 const REACT = isPackageExists('react')
 const NEST = isPackageExists('@nestjs/core') || isPackageExists('@nestjs/common') || isPackageExists('@nestjs/cli')
 
-const Extends = []
+let Extends = ['@kaivanwong/eslint-config-base']
 
 if (TS) {
   Extends = ['@kaivanwong/eslint-config-ts']
-} else {
-  Extends = ['@kaivanwong/eslint-config-base']
 }
 
 if (VUE) {
