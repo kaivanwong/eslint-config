@@ -1,6 +1,6 @@
 {
   "name": "@kaivanwong/eslint-config-monorepo",
-  "version": "0.13.12",
+  "version": "0.13.13",
   "private": true,
   "packageManager": "pnpm@7.1.0",
   "description": "Kaivanwong's ESLint config presets",
