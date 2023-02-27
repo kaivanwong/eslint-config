@@ -23,6 +23,8 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
+    "@kaivanwong/eslint-config-base": "workspace:*",
+    "@kaivanwong/eslint-config-ts": "workspace:*",
     "@kaivanwong/eslint-config-vue": "workspace:*",
     "@kaivanwong/eslint-config-react": "workspace:*",
     "@kaivanwong/eslint-config-nest": "workspace:*",
